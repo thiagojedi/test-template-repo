@@ -1,0 +1,24 @@
+div.example {
+  display: flex;
+  float: right;
+
+  flex-direction: column;
+  flex-grow: 1;
+
+  margin: 1px;
+  margin-left: 1px;
+
+  background-color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  padding: 1px;
+  padding-bottom: 2px;
+
+  width: 200px;
+  height: 200px;
+
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+}

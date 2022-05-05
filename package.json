@@ -1,0 +1,48 @@
+{
+  "name": "test-template-repo",
+  "version": "1.0.0",
+  "description": "Feeling cute. Might delete later.",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "pre-commit": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagojedi/test-template-repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagojedi/test-template-repo/issues"
+  },
+  "homepage": "https://github.com/thiagojedi/test-template-repo#readme",
+  "devDependencies": {
+    "@thiagojedi/eslint-config-frontend": "github:thiagojedi/eslint-config-frontend",
+    "@thiagojedi/prettier-config": "github:thiagojedi/prettier-config",
+    "@thiagojedi/stylelint-config": "github:thiagojedi/stylelint-config",
+    "@types/node": "^17.0.31",
+    "@types/react": "^18.0.8",
+    "eslint": "^8.14.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.4.1",
+    "prettier": "^2.6.2",
+    "stylelint": "^14.8.2",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "lint-staged": {
+    "*.{md,json}": "prettier --write",
+    "src/*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "src/*.css": [
+      "prettier --write",
+      "stylelint --fix"
+    ]
+  }
+}
