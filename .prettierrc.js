@@ -1,4 +1,4 @@
-const baseConfig = require('@thiagojedi/prettier-config')
+const baseConfig = require('@agilecontent/prettier-config')
 
 module.exports = {
     ...baseConfig,

@@ -1,6 +1,6 @@
 module.exports = {
     extends: [
-        "@thiagojedi/stylelint-config"
+        "@agilecontent/stylelint-config"
     ],
     rules: {
         //Add your own rules here
