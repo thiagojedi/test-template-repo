@@ -1,4 +1,12 @@
-div.example {
+div.example-few-properties {
+  display: flex;
+  float: right;
+  background-color: red;
+  width: 14px;
+  color: beige;
+}
+
+div.example-lots-properties {
   display: flex;
   float: right;
 

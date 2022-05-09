@@ -41,8 +41,8 @@
       "prettier --write"
     ],
     "src/*.css": [
-      "prettier --write",
-      "stylelint --fix"
+      "stylelint --fix",
+      "prettier --write"
     ]
   }
 }
